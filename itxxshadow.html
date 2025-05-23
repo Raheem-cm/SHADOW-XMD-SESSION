@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV SHADOW</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background: black;
+            overflow: hidden;
+            color: white;
+        }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            background: rgba(10, 10, 10, 0.8);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            color: #00FFCC;
+            margin-bottom: 20px;
+            animation: fadeIn 1s;
+        }
+
+        button {
+            display: block;
+            width: 200px;
+            margin: 10px auto;
+            padding: 15px;
+            color: white;
+            background: linear-gradient(90deg, rgba(255, 0, 128, 1), rgba(255, 0, 0, 1));
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+            animation: fadeIn 1.5s forwards;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+            background: linear-gradient(90deg, rgba(255, 0, 255, 1), rgba(255, 0, 0, 1));
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Snowfall animation */
+        .snow {
+            position: absolute;
+            background: white;
+            border-radius: 50%;
+            opacity: 0.8;
+            animation: fall linear infinite;
+        }
+
+        @keyframes fall {
+            0% {
+                transform: translateY(-100px);
+            }
+            100% {
+                transform: translateY(100vh);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="overlay">
+        <h1>SHADOW XMD SESSION</h1>
+      <div class="button-container">
+        <button onclick="window.open(`/pair`)" class="button">PAIRING-CODE</button>
+        <button onclick="window.open(`/wasiqr`)" class="button">QR-CODE</button>
+        <button onclick="window.open(https://github.com/shadowwrld/SHADOW-XMD/fork)" class="button">FORK REPO</button>
+        <button onclick="window.open(https://wa.me/526462708644)" class="button">WHATSAPP</button>
+        <button onclick="window.open(https://instagram.com/not.binxx)" class="button">INSTAGRAM</button>
+        <button onclick="window.open(www.youtube.com/@Shadow_wrld-f9z)" class="button">YOUTUBE</button>
+    </div>
+    </div>
+    </div>
+
+    <!-- Snowfall effect -->
+    <script>
+        const createSnowflake = () => {
+            const snowflake = document.createElement('div');
+            snowflake.classList.add('snow');
+            const size = Math.random() * 5 + 5; // Random size between 5 and 10
+            snowflake.style.width = `${size}px`;
+            snowflake.style.height = `${size}px`;
+            snowflake.style.left = `${Math.random() * 100}vw`; // Random horizontal position
+            snowflake.style.animationDuration = `${Math.random() * 3 + 2}s`; // Random falling duration between 2 and 5 seconds
+            
+            document.body.appendChild(snowflake);
+
+            // Remove the snowflake after it falls
+            snowflake.addEventListener('animationend', () => {
+                snowflake.remove();
+            });
+        };
+
+        setInterval(createSnowflake, 300); // Create a snowflake every 300ms
+    </script>
+</body>
+</html>
