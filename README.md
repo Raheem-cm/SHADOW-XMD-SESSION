@@ -26,7 +26,7 @@ Now Deploy
     <br>
 <a href='https://dashboard.heroku.com/new?template=https://github.com/DeeCeeXxx/DavidCyril-Session-id-generator)' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/>
 
-[`HERE'S AN EXAMPLE OUTPUT`](https://wasi-session-test-2d5de70f8522.herokuapp.com)
+[`HERE'S AN EXAMPLE OUTPUT`](https://shadow-xmd-session.onrender.com)
 # `Owner`
 
  <a href="https://github.com/shadowwrld"><img src="https://github.com/shadowwrld.png" width="250" height="250" alt="juxt me shadow"/></a>
