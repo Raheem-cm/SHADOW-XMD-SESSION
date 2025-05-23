@@ -65,14 +65,14 @@ router.get('/', async (req, res) => {
 *_Made With 🤍_*
 ______________________________________
 ╔════◇
-║ *『 AMAZING YOU'VE CHOSEN SHADOW MD 』*
+║ *『 AMAZING YOU'VE CHOSEN SHADOW XMD 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
 ║❒ *Ytube:* _www.youtube.com/@Shadow_wrld-f9z
-║❒ *Owner:* https://wa.me/2250701557807_
-║❒ *Repo:* _https://github.com/ShadowWrld/SHADOW-MD-BOT
+║❒ *Owner:* https://wa.me/526462708644_
+║❒ *Repo:* _https://github.com/ShadowWrld/SHADOW-XMD
 ╚════════════════════════╝
 _____________________________________
 	
