@@ -57,18 +57,18 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-*_Pair Code Connected by SHADOW*
+*_Pair Code Connected by RAHEEM*
 *_Made With ʕʘ̅͜ʘ̅ʔ_*
 ______________________________________
 ╔════◇
-║ *『 AMAZING YOU'VE CHOSEN SHADOW XMD 』*
+║ *『 AMAZING YOU'VE CHOSEN RAHEEM XMD 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _www.youtube.com/@Shadow_wrld-f9z
-║❒ *Owner:* _https://wa.me/526462708644_
-║❒ *Repo:* _https://github.com/ShadowWrld/SHADOW-XMD
+║❒ *Ytube:* https://youtube.com/@chiefmamba-cm18?si=7AHf3VsnHzibeP3c
+║❒ *Owner:* _https://wa.link/0huey3
+║❒ *Repo:* _https://github.com/Raheem-cm/RAHEEM_XMD-
 ╚════════════════════════╝
 _____________________________________
 
